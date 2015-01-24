@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->  
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions> 
+    <definition name="cp.layout" template="/view/cp/layout/main.jsp">
+        <put-attribute name="title" value="Hệ thống quản trị chodientu.vn"/>
+    </definition>
+    
+    <definition name="cp.index" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/index.jsp"/>
+    </definition>
+    <definition name="cp.auth" template="/view/cp/auth.jsp">
+        <put-attribute name="title" value="Hệ thống quản trị chodientu.vn"/>
+    </definition>
+    
+</tiles-definitions>
